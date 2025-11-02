@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+</head>
+<body class="min-h-[100vh] bg-[#f4d04eff] flex flex-none justify-center items-center ">
+  <section id="Card" class="border-[2px] bg-[#ffffffff]  w-[330px] md:w-[400px]  p-[25px] rounded-[25px] shadow-[8px_8px_0px_rgba(0,0,0,1.0)] font-Figtree">
+    <header>
+      <div id="img">
+        <img src="assets/images/illustration-article.svg" alt="illustration-article" class="rounded-[10px]"/>
+      </div>
+
+      <div id="info" class="flex flex-col ">
+        <h1 class="bg-[#f4d04eff] my-[15px] w-[95px] font-[700] p-[6px] text-center rounded-[4px]">Learning</h1>
+        <p class="mb-[15px] font-[600]">Published 21 Dec 2023</p>
+      </div>
+
+    </header>
+
+    <main>
+      <div id="main-content">
+        <h1 class="mb-[20px] font-[800] text-[22px]"> HTML & CSS foundations</h1>
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+    </main>
+
+    <footer>
+      <div id="avatar" class="flex mt-[40px] "> 
+        <img src="assets/images/image-avatar.webp" alt="Avatar"/>
+        <h3 class="font-[800] self-center ml-[15px]">Greg Hooper</h3>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>
