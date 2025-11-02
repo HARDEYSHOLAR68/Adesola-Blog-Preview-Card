@@ -45,10 +45,10 @@ The main focus areas were:
 
 ### 🔗 Links
 
-- 🌐 **Live Site:** []
-()
-- 💾 **GitHub Repo:** []
-()
+- 🌐 **Live Site:** [https://adesola-blog-preview-card.netlify.app/]
+(https://adesola-blog-preview-card.netlify.app/)
+- 💾 **GitHub Repo:** [https://github.com/HARDEYSHOLAR68/Adesola-Blog-Preview-Card.git]
+(https://github.com/HARDEYSHOLAR68/Adesola-Blog-Preview-Card.git)
 
 
 ## 🛠️ My Process
